@@ -1,15 +1,27 @@
+.container_forum{
+   
+    background-color:#F8F8F8;
+    width: 100%;
+    height: 100%; 
+  
+   
+   
+} 
+
 .form {
    
     display: flex;
-    background-color: white;
+    background-color: #FFFFFF;
     flex-direction: column;
     border-radius: 10px;
     margin: 10rem;
+    margin-right: 1rem;
+    margin-top: 8rem;
     /* padding-left: 2rem;
     padding-right:2rem;
     padding-bottom: 2rem; */
     padding :2rem;
-    width: 400px;
+    width: 600px;
     height: 100%;
     gap:10px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5);
@@ -31,7 +43,9 @@
 }
 .form p{
     font-size: 15px;
-    font-weight:700;
+    padding-top:5px;
+    font-weight:600;
+    margin-bottom: 0px;
     
 }
 .form span{
@@ -75,6 +89,17 @@
     text-decoration:underline;
 }
 
+.main_body{
+    display:flex;
+    gap: 10px;
+
+
+}
+.text_sec{
+    margin: 10rem;
+    margin-left: 1rem;
+    margin-top: 10rem;
+    width: 600px;  
 }
 .login_form{
     display: flex;
@@ -96,3 +121,49 @@
 .login_form button:hover{
     background-color:#0c2242;
 }
+.how_button{
+    margin-top: 10px;
+    background-color:#d49644;
+    padding: 6px 10px;
+   
+    border-radius: 5px;
+    
+}
+.title_text{
+    
+    color:rgb(109, 107, 115);
+    font-size: 20px;
+    font-weight: 700;
+}
+.how_button:hover{
+    background-color:#FD8302;
+}
+
+/* css for corner shape */
+.background-pattern {
+    position: absolute;
+    top: 60;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1; /* Send it to the background */
+  }
+
+  svg {
+    position: absolute;
+    z-index: -1;
+  }
+
+  .top-left-wave {
+    top: 0;
+    left: 0;
+    width: 25%;
+    height: 40%;
+  }
+
+  .bottom-right-wave {
+    bottom: 0;
+    right: 0;
+    width: 25%;
+    height: 40%;
+  }
